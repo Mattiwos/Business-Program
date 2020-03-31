@@ -1,4 +1,5 @@
-## Business Program 
+# Business Program 
+Calculates Total Assets, Liabilities, Expenses, Revenue, Profit,Owners equity and able to add products individually
 
 ## Installation
 Use npm to install packages for Electron folder
@@ -13,12 +14,12 @@ npm start
 ```
 ## Run Website
 
-# Mac
+### Mac
 ```bash
 cd Typescript 
 open index.html
 ```
-# Linux
+### Linux
 ```bash
 cd Typescript 
 google-chrome index.html
@@ -28,7 +29,7 @@ or
 cd Typescript 
 firefox index.html
 ```
-# Window
+### Window
 ```bash
 cd Typescript 
 start index.html
