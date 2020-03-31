@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            
+            <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <title>Business Program</title>
+        <h1 style = "text-align: center">Business Program</h1>
+        <p style = "text-align: center;color:red;">
+                <a style = "text-align: center;color:red;" href="https://github.com/Mattiwos">
+            By Mattiwos Belachew </a></p>
+
+
+
+    </head>
+    <body>
+        <p style = "text-align: center;
+        color: red;
+        bottom: 1%;
+        position: absolute;
+        left: 42%;
+        " >This page was made with ❤</p>
+       
+        <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm">
+                      <form>
+                            <label>Owners equity: </label>
+                            <input type= "text" id = "equity" />
+                      </form>
+                  </div>
+                  <div class="col-sm">
+                        <form>
+                                <label>Total Assets: </label>
+                                <input type= "text" id = "totalassets" />
+                          </form>
+                  </div>
+                  
+                  <div class="col-sm">
+                        <form>
+                                <label>Liabilities: </label>
+                                <input type= "text" id = "liabilities"/>
+                          </form>
+                  </div>
+                </div>
+                <div class="row">
+                        <div class="col-sm">
+                        <form>
+                                <label>Expenses: </label>
+                                <input type= "text" id = "expenses"/>
+                          </form>
+                        </div>
+                        <div class="col-sm">
+                                <form>
+                                        <label>Revenue: </label>
+                                        <input type= "text" id = "revenue"/>
+                                  </form>
+                        </div>
+                        <div class="col-sm">
+                                <form>
+                                        <label>Profit: </label>
+                                        <input type= "text" id = "profit" readonly/>
+                                  </form>
+                        </div>
+                </div>
+              </div>
+
+              <div class="container-fluid"> 
+                    <div class="row"> 
+                            <div style="background-color: #E6E6FA;margin:20px;">
+                                                 
+                            </div>
+                    </div>
+                <div class="row"> 
+                    <div class="col-sm">
+                        <form>
+                            <label>Pdt Name:</label>
+                            <input type="text" id = "productname"/>
+                            
+                            <label>Pdt Price/Unit:</label>
+                            <input type ="text" id ="productpriceperunit"/> <!-- price per unit -->
+
+                            <label>Pdt Cost/Unit:</label>
+                            <input type ="text" id ="costofproduct"/> <!-- price per unit -->
+
+                            <label>Pdt Qty:</label>
+                            <input type ="text" id ="productquantity"/><!-- product quantity--> 
+                            
+                            <label>Pdt Sold:</label>
+                            <input type ="text" id ="productsold"/><!-- product quantity--> 
+
+                        </form>
+                    </div>
+                    
+                </div>
+                <div class="row"> 
+                    <div class="col"> 
+                        <form>
+                            <button style = "width: -webkit-fill-available;"id ="addproduct">Add</button>
+                        </form>
+
+                    </div>
+
+                </div>
+                <div style = "overflow: overlay;height: 200px;"class="row"> 
+                        <div class="col-sm"> 
+                            <h>Product Name:</h>
+
+                            <ul style = "list-style: ethiopic-halehame;" id= "productnamelist">
+
+                            </ul>
+    
+                        </div>
+                        <div  class="col-sm"> 
+                                <h>Product Price/Unit:</h>
+                                <ul style = "list-style: none;" id= "productpriceperunitlist">
+    
+                                </ul>
+        
+                        </div>
+                        <div  class="col-sm"> 
+                                <h>Cost of product per unit</h>
+                                <ul style = "list-style: none;" id= "costofproductlist">
+    
+                                </ul>
+        
+                        </div>
+
+
+
+                        <div  class="col-sm"> 
+                                <h>Product Quantity:</h>
+                                <ul style = "list-style: none;" id= "productquantitylist">
+    
+                                </ul>
+        
+                        </div>
+                        <div class="col-sm"> 
+                                <h>Product Quantity Sold:</h>
+                                <ul style = "list-style: none;" id= "productsoldlist">
+    
+                                </ul>
+        
+                        </div>
+
+
+    
+                    </div>
+
+              </div>
+              <button id = "exportcvs" style = "position: fixed;left: 90%;top: 90%;" >Export</button>
+              
+    <script src = "index.js"></script>
+
+    </body>
+
+</html>
