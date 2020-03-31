@@ -12,6 +12,8 @@ npm i package
 cd Electron
 npm start
 ```
+OR
+
 ## Run Website
 
 ### Mac
@@ -24,7 +26,7 @@ open index.html
 cd Typescript 
 google-chrome index.html
 ```
-or 
+OR 
 ```bash
 cd Typescript 
 firefox index.html
