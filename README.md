@@ -7,13 +7,6 @@ Use npm to install packages for Electron folder
 cd Electron
 npm i package
 ```
-## Run Electron
-```bash
-cd Electron
-npm start
-```
-OR
-
 ## Run Website
 
 ### Mac
